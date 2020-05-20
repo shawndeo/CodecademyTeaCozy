@@ -54,8 +54,6 @@ html {
 	border-style: solid;
 	display: inline-block;
 	margin: 5px 20px;
-	/*margin-left: 20px;
-	margin-right: 20px;*/
 	opacity: 1;
 	width: 300px;
 }
@@ -75,38 +73,38 @@ html {
 }
 
 nav {
-	text-align: right;
+	display: inline;
+	width: 100%;
 }
 
 nav a {
-	text-align: right;
-}
-
-nav img {
 	display: inline-block;
-	text-align: left;
-}
-
-nav li {
-	display: inline-block;
-	margin-left: 10px;
-	margin-right: 10px;
+	float: right;
 	padding-right: 10px;
-	text-align: right;
-	text-decoration: underline;
+}
+
+nav a:active {
+	color: seashell;
+}
+
+nav a:hover {
+	color: pink;
+}
+
+nav a:visited {
+	color: seashell;
 }
 
 nav #Logo {
-	display: inline-block;
+	float: left;
 	height: 50px;
-	margin: auto 0;
 	padding-left: 10px;
 	text-align: left;
 }
 
-#TeasRow1 {
-	display: flex;
-	justify-content: space-between;
+nav li {
+	list-style: none;
+	padding: 10px 10px;
 }
 
 #Teas img {
@@ -116,7 +114,7 @@ nav #Logo {
 
 #TR1 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 #TR2 {
