@@ -1,5 +1,5 @@
 #Contact {
-	text-align: center;
+	height: 200px;
 }
 
 footer {
@@ -42,7 +42,22 @@ html {
 #Locations {
 	background-image: url("Locations.jfif");
 	height: 500px;
+	padding-top: 50px;
 	text-align: center;
+	vertical-align: center;
+}
+
+.LocationBox {
+	background-color: black;
+	border: 1px;
+	border-color: seashell;
+	border-style: solid;
+	display: inline-block;
+	margin: 5px 20px;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+	opacity: 1;
+	width: 300px;
 }
 
 #MissionStatement {
@@ -92,10 +107,6 @@ nav #Logo {
 #TeasRow1 {
 	display: flex;
 	justify-content: space-between;
-}
-
-#Teas {
-	width: 1000px;
 }
 
 #Teas img {
