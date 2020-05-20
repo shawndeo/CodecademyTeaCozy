@@ -59,23 +59,56 @@ html {
 	width: 100%;
 }
 
+nav {
+	text-align: right;
+}
+
+nav a {
+	text-align: right;
+}
+
+nav img {
+	display: inline-block;
+	text-align: left;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-right: 10px;
+	text-align: right;
+	text-decoration: underline;
+}
+
 nav #Logo {
+	display: inline-block;
 	height: 50px;
+	margin: auto 0;
 	padding-left: 10px;
 	text-align: left;
-	justify-content: left;
-	// margin-right: 50%;
 }
 
-#TeaOfTheMonth {
-	text-align: center;
+#TeasRow1 {
+	display: flex;
+	justify-content: space-between;
 }
 
-#TeaOfTheMonth figcaption {
-	padding-top: 10px;
+#Teas {
+	width: 1000px;
 }
 
-#TeaOfTheMonth img {
+#Teas img {
 	height: 200px;
 	width: 300px;
+}
+
+#TR1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#TR2 {
+	display: flex;
+	justify-content: center;
 }
